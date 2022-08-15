@@ -1,0 +1,39 @@
+.fundo_cinza {
+    background-color: rgb(127, 196, 28);
+    height: 30px;
+    margin-top: 30px;
+    
+}
+
+/* Estilização do 'sobre' */
+.sobre {
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .fundo_cinza {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    .sobre__descricao {
+        font-size: 25px;
+        line-height: 2.8rem;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .fundo_cinza {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding: 30px;
+    }
+
+    .sobre__descricao {
+        font-size: 19px;
+        line-height: 1.8rem;
+        margin: 0;
+    }
+}
+
